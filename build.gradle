@@ -15,7 +15,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.jpos:jpos:2.1.8-SNAPSHOT'
+    implementation 'org.jpos:jpos:2.1.10-SNAPSHOT'
+    implementation 'org.jpos.ee:jposee-server-simulator:2.2.10-SNAPSHOT'
+    implementation group:'junit', name:'junit', version:'4.8.2'
 }
 
 apply from: 'jpos-app.gradle'
